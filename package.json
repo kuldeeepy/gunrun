@@ -1,0 +1,22 @@
+{
+  "name": "gunrun",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "phaser": "4.2.1",
+    "postprocessing": "6.39.5",
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "@types/three": "0.186.0",
+    "typescript": "7.0.2",
+    "vite": "8.3.1"
+  },
+  "description": "Modern browser run-and-gun inspired by classic Contra: 2.5D Three.js jungle, 8-way aiming, dragon boss."
+}
